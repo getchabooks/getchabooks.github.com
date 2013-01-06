@@ -1,0 +1,235 @@
+/* General colors */
+/* Button colors */
+/* Generic gradient colors */
+/* Generic hover gradient colors */
+/* Text colors */
+/* Other colors */
+#top {
+  margin: 0;
+  height: 6px;
+  margin-bottom: 6px; }
+
+/* Action. The right side. */
+#actionWrapper {
+  margin-top: 21px;
+  margin-right: 10px;
+  float: right;
+  padding: 0px;
+  width: 382px; }
+
+#action {
+  border: 1px solid #CCC;
+  text-align: center;
+  max-height: 318px;
+  position: relative; }
+  #action h2, #action p {
+    margin: 2px 10px 10px 10px; }
+  #action h2 {
+    padding-top: 6px; }
+  #action a {
+    text-decoration: none;
+    color: #636363; }
+  #action #go {
+    height: 320px;
+    /* Automatic hiding. JS unhides. */
+    display: none; }
+    #action #go button {
+      cursor: pointer; }
+  #action #drop {
+    /* Automatic hiding. JS unhides. */
+    display: none; }
+  #action option, #action input {
+    font-size: 1.1em;
+    width: 380px; }
+
+#actionselect {
+  font-size: 1.1em;
+  width: 380px; }
+
+#action #change {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 380px;
+  color: #636363 !important;
+  margin: 10px 0 10px 0;
+  padding-bottom: 0;
+  cursor: pointer; }
+  #action #change:hover {
+    text-decoration: underline; }
+
+#goISBN {
+  margin-top: 0.5em;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Select a school. Covers everything involved in the selection. */
+#select {
+  -webkit-overflow-scrolling: touch; }
+  #select #searchBox {
+    width: 374px;
+    font-size: 17px;
+    padding: 2px;
+    height: 24px; }
+  #select input:focus {
+    outline: none;
+    box-shadow: 0 0 11px #bbb;
+    -moz-box-shadow: 0 0 11px #bbb;
+    -webkit-box-shadow: 0 0 11px #bbb; }
+  #select .hover {
+    background-color: #d0fdc1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d0fdc1), to(#b6e8ae));
+    background-image: -webkit-linear-gradient(top, #d0fdc1, #b6e8ae);
+    background-image: -moz-linear-gradient(top, #d0fdc1, #b6e8ae);
+    background-image: -o-linear-gradient(top, #d0fdc1, #b6e8ae);
+    background-image: -ms-linear-gradient(top, #d0fdc1, #b6e8ae);
+    background-image: linear-gradient(top, #d0fdc1, #b6e8ae);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d0fdc1', EndColorStr='#b6e8ae'); }
+    #select .hover a {
+      color: #111; }
+  #select ul {
+    height: 288px;
+    max-height: 288px;
+    overflow-y: auto;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #select ul li {
+      padding: 0;
+      min-height: 24px;
+      line-height: 24px;
+      display: block; }
+      #select ul li a {
+        display: block;
+        height: 100%;
+        width: 364px;
+        padding: 5px 4px 3px 6px;
+        color: #636363; }
+      #select ul li a:active, #select ul li.special {
+        background-color: #fbd583;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fbd583), to(#f1ca75));
+        background-image: -webkit-linear-gradient(top, #fbd583, #f1ca75);
+        background-image: -moz-linear-gradient(top, #fbd583, #f1ca75);
+        background-image: -o-linear-gradient(top, #fbd583, #f1ca75);
+        background-image: -ms-linear-gradient(top, #fbd583, #f1ca75);
+        background-image: linear-gradient(top, #fbd583, #f1ca75);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fbd583', EndColorStr='#f1ca75');
+        color: #111; }
+      #select ul li:hover {
+        cursor: pointer; }
+      #select ul li.error {
+        height: 255px !important;
+        background: #FFF;
+        color: #636363;
+        text-align: center;
+        font-size: 15pt;
+        line-height: 32px; }
+        #select ul li.error a {
+          padding-top: 1.4em;
+          color: #636363; }
+        #select ul li.error p {
+          margin: 0;
+          padding: 0;
+          margin-bottom: 1em; }
+        #select ul li.error .title {
+          font-weight: bold; }
+        #select ul li.error .link {
+          color: #282fb5;
+          text-decoration: underline;
+          margin-bottom: 0; }
+
+.touch #select .hover {
+  background: #fff; }
+.touch #select ul li {
+  min-height: 36px; }
+
+/* iOS */
+option, input, select {
+  font-size: 1.1em;
+  width: 370px; }
+
+button#getStarted {
+  margin-top: 60px;
+  font-size: 1.3em;
+  padding: 15px; }
+
+/* Introduction. The left side. */
+#introduction {
+  margin-left: 10px; }
+  #introduction h1 {
+    margin-bottom: 0;
+    font-size: 1.7em; }
+  #introduction h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: normal; }
+  #introduction ol {
+    width: 420px; }
+    #introduction ol li {
+      font-size: 1.25em;
+      font-weight: bold; }
+      #introduction ol li p {
+        margin-left: 4px;
+        line-height: 1.4em;
+        font-weight: normal;
+        margin: 0;
+        padding: 0.5em 0; }
+  #introduction > p {
+    font-size: 1.25em;
+    margin: 0; }
+
+#redirect {
+  margin-left: 10px; }
+  #redirect h1 {
+    font-size: 1.7em; }
+
+#status {
+  padding: 1em; }
+  #status p {
+    font-size: 17pt;
+    line-height: 34px; }
+  #status .title {
+    font-weight: bold; }
+
+#isbn_status {
+  padding: 0.5em 0.7em 0.5em 0.7em;
+  text-align: left; }
+  #isbn_status p {
+    font-size: 13pt;
+    line-height: 28px;
+    margin-bottom: 1.3em; }
+    #isbn_status p:last-child {
+      margin-bottom: 0; }
+  #isbn_status .title {
+    font-weight: bold;
+    font-size: 17pt;
+    line-height: 32px;
+    margin-bottom: .7em; }
+  #isbn_status .check {
+    margin-top: .5em; }
+
+#list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
+
+/* Touch hacks! */
+.touch #main {
+  min-height: 559px; }
+.touch #content {
+  min-height: 474px;
+  padding-top: 10px; }
+
+/* Unsupported Internet Explorer! */
+#ie_message {
+  display: none; }
+
+.ie #ie_message {
+  display: block !important;
+  width: 580px;
+  font-size: 1.4em;
+  margin: 150px auto; }
+.ie #introduction, .ie #actionWrapper {
+  display: none; }
